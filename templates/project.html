@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/static/project.css" />
+    <title>Audio Classification</title>
+  </head>
+  <body>
+    <header>
+      <h1>Emergency Sound Classification Project</h1>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/project">Project</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Upload an Audio File for Classification</h2>
+        <form
+          action="{{ url_for('predict') }}"
+          method="post"
+          enctype="multipart/form-data"
+        >
+          <!-- File Input -->
+          <label for="file">Select Audio File:</label>
+          <input type="file" name="file" id="file" accept="audio/*" required />
+          <br />
+
+          <!-- Dropdown for Email Trigger Class -->
+          <label for="class_to_email">Select Class to Trigger Email:</label>
+          <select name="class_to_email" id="class_to_email" required>
+            <option value="" disabled selected>Select a class</option>
+            <option value="Emergency Sound">Emergency Sound</option>
+            <option value="Gunshot">Gunshot</option>
+            <option value="Glass Break">Glass Break</option>
+            <option value="Scream">Scream</option>
+          </select>
+          <br />
+
+          <!-- Submit Button -->
+          <button type="submit">Classify</button>
+        </form>
+      </section>
+
+      {% if prediction %}
+      <section>
+        <h2>Classification Result</h2>
+        <p>Predicted Class: <strong>{{ prediction }}</strong></p>
+      </section>
+      {% endif %}
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Audio Classification System</p>
+    </footer>
+  </body>
+</html>

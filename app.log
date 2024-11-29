@@ -1,0 +1,53 @@
+2024-11-25 10:35:54,360 INFO: Model and labelencoder loaded successfully
+2024-11-25 10:35:54,364 INFO: Created .env file template
+2024-11-25 10:35:54,399 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.6:5000
+2024-11-25 10:35:54,399 INFO: [33mPress CTRL+C to quit[0m
+2024-11-25 10:37:06,297 INFO: 127.0.0.1 - - [25/Nov/2024 10:37:06] "GET / HTTP/1.1" 200 -
+2024-11-25 10:37:06,380 INFO: 127.0.0.1 - - [25/Nov/2024 10:37:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-25 10:37:23,012 INFO: File saved: uploads/audio_20241125_103723_Recording (2).mp3
+2024-11-25 10:37:28,412 INFO: Prediction made: scream with confidence 99.93%
+2024-11-25 10:37:28,412 INFO: File removed: uploads/audio_20241125_103723_Recording (2).mp3
+2024-11-25 10:37:28,412 INFO: 127.0.0.1 - - [25/Nov/2024 10:37:28] "POST /predict HTTP/1.1" 200 -
+2024-11-25 10:40:24,934 INFO: File saved: uploads/audio_20241125_104024_gun-shots-230534.mp3
+2024-11-25 10:40:25,563 INFO: Prediction made: gun_firing with confidence 99.83%
+2024-11-25 10:40:25,566 INFO: File removed: uploads/audio_20241125_104024_gun-shots-230534.mp3
+2024-11-25 10:40:25,569 INFO: 127.0.0.1 - - [25/Nov/2024 10:40:25] "POST /predict HTTP/1.1" 200 -
+2024-11-25 10:44:40,550 INFO: File saved: uploads/audio_20241125_104440_gun-shots-230534.mp3
+2024-11-25 10:44:40,675 INFO: Prediction made: gun_firing with confidence 99.83%
+2024-11-25 10:44:40,677 INFO: File removed: uploads/audio_20241125_104440_gun-shots-230534.mp3
+2024-11-25 10:44:40,678 INFO: 127.0.0.1 - - [25/Nov/2024 10:44:40] "POST /predict HTTP/1.1" 200 -
+2024-11-25 10:44:48,411 INFO: File saved: uploads/audio_20241125_104448_glass-shatter-263962.mp3
+2024-11-25 10:44:48,592 INFO: Prediction made: glass_break with confidence 99.31%
+2024-11-25 10:44:48,592 INFO: File removed: uploads/audio_20241125_104448_glass-shatter-263962.mp3
+2024-11-25 10:44:48,592 INFO: 127.0.0.1 - - [25/Nov/2024 10:44:48] "POST /predict HTTP/1.1" 200 -
+2024-11-25 10:46:48,559 INFO: File saved: uploads/audio_20241125_104648_glass-shatter-263962.mp3
+2024-11-25 10:46:48,683 INFO: Prediction made: glass_break with confidence 99.31%
+2024-11-25 10:46:48,683 INFO: File removed: uploads/audio_20241125_104648_glass-shatter-263962.mp3
+2024-11-25 10:46:48,683 INFO: 127.0.0.1 - - [25/Nov/2024 10:46:48] "POST /predict HTTP/1.1" 200 -
+2024-11-25 10:46:54,766 INFO: File saved: uploads/audio_20241125_104654_glass-shatter-263962.mp3
+2024-11-25 10:46:54,899 INFO: Prediction made: glass_break with confidence 99.31%
+2024-11-25 10:46:54,900 INFO: File removed: uploads/audio_20241125_104654_glass-shatter-263962.mp3
+2024-11-25 10:46:54,900 INFO: 127.0.0.1 - - [25/Nov/2024 10:46:54] "POST /predict HTTP/1.1" 200 -
+2024-11-25 10:53:26,219 INFO: File saved: uploads/audio_20241125_105326_glass-shatter-263962.mp3
+2024-11-25 10:53:26,773 INFO: Prediction made: glass_break with confidence 99.31%
+2024-11-25 10:53:26,773 INFO: File removed: uploads/audio_20241125_105326_glass-shatter-263962.mp3
+2024-11-25 10:53:26,779 INFO: 127.0.0.1 - - [25/Nov/2024 10:53:26] "POST /predict HTTP/1.1" 200 -
+2024-11-25 10:53:35,972 INFO: File saved: uploads/audio_20241125_105335_glass-shatter-263962.mp3
+2024-11-25 10:53:36,127 INFO: Prediction made: glass_break with confidence 99.31%
+2024-11-25 10:53:36,127 INFO: File removed: uploads/audio_20241125_105335_glass-shatter-263962.mp3
+2024-11-25 10:53:36,127 INFO: 127.0.0.1 - - [25/Nov/2024 10:53:36] "POST /predict HTTP/1.1" 200 -
+2024-11-25 10:56:04,740 INFO: File saved: uploads/audio_20241125_105604_glass-shatter-263962.mp3
+2024-11-25 10:56:04,864 INFO: Prediction made: glass_break with confidence 99.31%
+2024-11-25 10:56:04,864 INFO: File removed: uploads/audio_20241125_105604_glass-shatter-263962.mp3
+2024-11-25 10:56:04,864 INFO: 127.0.0.1 - - [25/Nov/2024 10:56:04] "POST /predict HTTP/1.1" 200 -
+2024-11-25 10:56:08,835 INFO: File saved: uploads/audio_20241125_105608_glass-shatter-263962.mp3
+2024-11-25 10:56:08,995 INFO: Prediction made: glass_break with confidence 99.31%
+2024-11-25 10:56:08,995 INFO: File removed: uploads/audio_20241125_105608_glass-shatter-263962.mp3
+2024-11-25 10:56:09,000 INFO: 127.0.0.1 - - [25/Nov/2024 10:56:09] "POST /predict HTTP/1.1" 200 -
+2024-11-25 10:56:15,384 INFO: File saved: uploads/audio_20241125_105615_glass-shatter-263962.mp3
+2024-11-25 10:56:15,512 INFO: Prediction made: glass_break with confidence 99.31%
+2024-11-25 10:56:15,512 INFO: File removed: uploads/audio_20241125_105615_glass-shatter-263962.mp3
+2024-11-25 10:56:15,512 INFO: 127.0.0.1 - - [25/Nov/2024 10:56:15] "POST /predict HTTP/1.1" 200 -
