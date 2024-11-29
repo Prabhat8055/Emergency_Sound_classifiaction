@@ -19,8 +19,8 @@ if not os.path.exists(app.config["UPLOAD_FOLDER"]):
 
 # send EMAIL_ADDRESS
 
-EMAIL_ADDRESS = "prabhat.bhasme21@vit.edu"  # Replace with your email
-EMAIL_PASSWORD = "welcome@vit69"  # Replace with your email's app password
+EMAIL_ADDRESS = ""  # Replace with your email
+EMAIL_PASSWORD = ""  # Replace with your email's app password
 RECIPIENTS = [
     "prabhatbhasme@gmail.com",
     "sachin.bhargav21@vit.edu",
