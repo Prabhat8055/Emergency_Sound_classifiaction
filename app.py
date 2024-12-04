@@ -20,16 +20,8 @@ labelencoder = joblib.load("label_encoder.pkl")
 if not os.path.exists(app.config["UPLOAD_FOLDER"]):
     os.makedirs(app.config["UPLOAD_FOLDER"])
 
-# Firebase initialization
-cred = credentials.Certificate(
-    "C:\\Users\\prabh\\Downloads\\audio-classification-c3e30-firebase-adminsdk-w8397-9e91252ac0.json"
-)  # Replace with your Firebase admin JSON file path
-firebase_admin.initialize_app(
-    cred,
-    {"databaseURL": "https://audio-classification-c3e30-default-rtdb.firebaseio.com/"},
-)  # Replace with your Realtime Database URL
+# send EMAIL_ADDRESS
 
-# Email configuration
 EMAIL_ADDRESS = "prabhat.bhasme21@vit.edu"  # Replace with your email
 EMAIL_PASSWORD = "welcome@vit69"  # Replace with your email's app password
 RECIPIENTS = [
